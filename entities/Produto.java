@@ -15,5 +15,10 @@ public class Produto{
     public void setName(String name){
         this.name = name;
     }
+
+    public String toString(){
+
+        return String.format("Este é o produto: " + name);
+    }
     
 }
